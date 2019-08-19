@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite" >
+    <test verbose="2" preserve-order="true"  name="testcase">
+        <classes>
+
+            <class name="com.demo.testcase.EasyExcelReadDemo"></class>
+
+<!--            <class name="com.demo.testcase.sendreport.Test_sendWeChatReport"></class>-->
+
+
+        </classes>
+    </test>
+    <listeners>
+        <listener class-name="com.demo.utils.Listeners.AnnotationTransformer"></listener>
+        <listener class-name="com.demo.utils.Listeners.TestListener"></listener>
+
+
+    </listeners>
+</suite>

@@ -1,0 +1,8 @@
+easyExcel读取excel文件做接口测试
+
+目录介绍：
+   model 参数get/set方法及地址项
+   testcase 用例集
+   utils 工具类
+   function 封装的方法
+   testdata 用例所用到的数据
